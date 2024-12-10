@@ -1,0 +1,53 @@
+/* mystyle.css */
+
+h1 {
+    color: rgb(0, 124, 178);
+}
+
+h1, .myh1{
+    font-size: 36pt;
+    margin: 40px;
+    padding: 60px;
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 0%;
+    text-align: center;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmYybmpocmlpZTlsdDByZzR2dnFrZmNtMnp3eXJxaHBlYnk4ZTdudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lJNoBCvQYp7nq/giphy.webp);
+    background-size: 1500px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+h1:hover{
+    background-color: rgb(158, 233, 233);
+    color: white;
+}
+
+body{
+    font-family: 'Hubot Sans';
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover {
+    background-color: rgb(69, 69, 77);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(211, 252, 252);
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzJnMnJyNWg0Z2IxcGlzdGxidXE1ZTEybGxjMjV1dWI4djJxbjFkYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBEhpJHrv7poQ/giphy.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+form {
+    background-color: aliceblue;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: left;
+    padding: 20px; 
+    border: 3px solid rgb(9, 0, 141); 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    width: 40%; 
+    margin: auto; 
+}
